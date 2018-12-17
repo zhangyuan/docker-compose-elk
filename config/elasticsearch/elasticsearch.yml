@@ -1,0 +1,4 @@
+node.name: elasticsearch
+network.host: 0.0.0.0
+node.data: true
+cluster.routing.allocation.disk.threshold_enabled: false

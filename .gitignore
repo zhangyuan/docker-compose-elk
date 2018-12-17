@@ -1,0 +1,3 @@
+data/elasticsearch/*
+data/kibana/*
+!.gitkeep
