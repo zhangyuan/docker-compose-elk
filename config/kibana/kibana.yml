@@ -1,3 +1,13 @@
 elasticsearch.url: 'http://elasticsearch:9200'
 server.host: 0.0.0.0
 path.data: /usr/share/kibana/data
+
+sentinl:
+  settings:
+    email:
+      active: true
+      user: login@your.domain
+      password: yourpassword
+      host: smtp.mailgun.org
+      authentication: ['PLAIN']
+      port: 587
