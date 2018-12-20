@@ -29,5 +29,13 @@ services:
         hostname: logstash
         networks:
         - elk-internal
+    elasticsearch-hq:
+        image: elastichq/elasticsearch-hq
+        hostname: elasticsearch-hq
+        ports:
+        - 5000:5000
+        networks:
+        - elk-internal
+
 networks:
     elk-internal:
