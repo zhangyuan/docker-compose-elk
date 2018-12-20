@@ -14,7 +14,8 @@ services:
         networks:
         - elk-internal
     kibana:
-        image: docker.elastic.co/kibana/kibana:6.5.3
+        build:
+            context: ./kibana
         hostname: kibana
         volumes:
         - ./config/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
