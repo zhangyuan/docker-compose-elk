@@ -1,3 +1,2 @@
-data/elasticsearch/*
-data/kibana/*
+data/*
 !.gitkeep
